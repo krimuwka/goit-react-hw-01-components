@@ -1,0 +1,72 @@
+.transactionHistory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  color: rgb(46, 45, 109);
+  width: 600px;
+}
+
+.tableHead {
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.headCell {
+  width: 200px;
+  margin: 0 auto;
+  background-color: rgb(248, 171, 104);
+  padding: 5px 0;
+}
+
+.tableBody {
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.tableRaw {
+  background-color: rgb(250, 227, 208);
+}
+
+.bodyCell {
+  font-size: 20px;
+  width: 200px;
+}
+
+.bodyCell:nth-child(2n) {
+}
+
+.bodyCell:first-child {
+  padding-left: 20px;
+  text-align: left;
+}
+
+.bodyCell:nth-child(2) {
+  padding-right: 5%;
+  text-align: right;
+}
+
+.bodyCell:last-child {
+  padding-left: 12%;
+  text-align: left;
+}
+
+.bodyCellInvoice {
+  font-weight: 500;
+  color: darkblue;
+}
+
+.bodyCellPayment {
+  font-weight: 500;
+  color: darkred;
+}
+
+.bodyCellWithdrawal {
+  font-weight: 500;
+  color: darkgreen;
+}
+
+.bodyCellDeposit {
+  font-weight: 500;
+  color: darkviolet;
+}

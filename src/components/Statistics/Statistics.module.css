@@ -1,0 +1,61 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin: 0 auto 50px;
+  background-color: rgb(226, 237, 248);
+  color: rgb(66, 90, 105);
+}
+
+.title {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.statList {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  /* background-color: rgb(66, 90, 105); */
+  color: white;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 5);
+  padding: 10px 10px;
+  border: 1px solid rgb(226, 237, 248);
+}
+
+.listItem:first-child {
+  background-color: rgb(66, 90, 105);
+}
+
+.listItem:nth-child(2) {
+  background-color: rgba(66, 90, 105, 0.829);
+}
+
+.listItem:nth-child(3) {
+  background-color: rgba(66, 90, 105, 0.637);
+}
+
+.listItem:nth-child(4) {
+  background-color: rgba(66, 90, 105, 0.349);
+}
+
+.listItem:nth-child(5) {
+  background-color: rgba(66, 90, 105, 0.219);
+}
+
+.percentage {
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.second {
+  color: red;
+}
